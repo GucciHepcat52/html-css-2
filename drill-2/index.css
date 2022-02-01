@@ -1,0 +1,88 @@
+body {
+  margin: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#box-one {
+  background-color: white;
+  border: black 5px solid;
+  height: 250px;
+  width: fill;
+  display: flex;
+}
+
+#element-1 {
+  background-color: purple;
+  margin-left: 10px;
+  margin-top: 90px;
+  height: 150px;
+  width: 50px;
+}
+
+#element-2 {
+  background-color: green;
+  margin-left: 50px;
+  margin-top: 10px;
+  height: 230px;
+  width: 400px;
+}
+
+#element-3 {
+  background-color: lightskyblue;
+  margin-left: 50px;
+  margin-top: 10px;
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+}
+
+#box-two {
+  background-color: white;
+  border: black 5px dotted;
+  height: 250px;
+  width: fill;
+  display: flex;
+  margin-top: 10px;
+}
+
+#rectangle-one {
+  background-color: bisque;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 150px;
+  width: 100%;
+  box-shadow: 10px 10px 10px black;
+}
+
+#box-three {
+  background-color: white;
+  height: 375px;
+  width: fill;
+  display: flex;
+  margin-top: 10px;
+}
+
+#rectangle-two {
+    background-color: white;
+    border: grey 1px groove;
+    position: relative;
+    margin-left: 550px;
+    margin-right: 550px;
+    height: 370px;
+    width: 100%;
+    box-shadow: 5px 5px 5px grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#rectangle-two > div {
+    font-size: 48px;
+    color: blue;
+    text-shadow: 0 0 10px black, 0 0 5px blue;
+    position: relative;
+}
